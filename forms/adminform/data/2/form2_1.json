@@ -1,0 +1,54 @@
+[
+    {
+        "question_number": 1,
+        "question_text": "Select your country",
+        "question_type": "dropdown",
+        "options": [
+            "USA",
+            "Canada",
+            "Mexico"
+        ]
+    },
+    {
+        "question_number": 2,
+        "question_text": "Describe your ideal vacation",
+        "question_type": "text",
+        "options": []
+    },
+    {
+        "question_number": 3,
+        "question_text": "What are your hobbies?",
+        "question_type": "custom",
+        "options": [
+            "Reading",
+            "Traveling",
+            "Cooking"
+        ]
+    },
+    {
+        "question_number": 4,
+        "question_text": "Tell us more about yourself",
+        "question_type": "text",
+        "options": []
+    },
+    {
+        "question_number": 5,
+        "question_text": "What is your favorite color?",
+        "question_type": "custom",
+        "options": [
+            "Red",
+            "Blue",
+            "Green"
+        ]
+    },
+    {
+        "question_number": 6,
+        "question_text": "What is your profession?",
+        "question_type": "dropdown",
+        "options": [
+            "Engineer",
+            "Doctor",
+            "Artist"
+        ]
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "question_text": "Describe your ideal vacation",
+        "question_type": "text"
+    },
+    {
+        "question_text": "What are your hobbies?",
+        "question_type": "custom",
+        "options": [
+            "Reading",
+            "Traveling",
+            "Cooking"
+        ]
+    },
+    {
+        "question_text": "Tell us more about yourself",
+        "question_type": "text"
+    },
+    {
+        "question_text": "What is your favorite color?",
+        "question_type": "custom",
+        "options": [
+            "Red",
+            "Blue",
+            "Green"
+        ]
+    },
+    {
+        "question_text": "What is your profession?",
+        "question_type": "dropdown",
+        "options": [
+            "Engineer",
+            "Doctor",
+            "Artist"
+        ]
+    }
+]

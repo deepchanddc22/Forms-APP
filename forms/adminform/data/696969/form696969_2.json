@@ -1,0 +1,15 @@
+[
+    {
+        "question_text": "Select your Fav food ",
+        "question_type": "dropdown",
+        "options": [
+            "poori",
+            "chapathi",
+            "chinese"
+        ]
+    },
+    {
+        "question_text": "Describe your ideal vacation",
+        "question_type": "text"
+    }
+]
