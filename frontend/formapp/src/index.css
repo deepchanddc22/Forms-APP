@@ -1,3 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+  font-family: "Poppins",sans-serif;
+  /* color-scheme: dark; */
+}
+
+/* Scrollbar customization for modern browsers */
+::-webkit-scrollbar {
+  width: 16px; /* Adjust the width of the scrollbar */
+  height: 8px; /* Adjust the height for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:#18181b; /* Customize the thumb color (use a neutral or slightly transparent shade) */
+  border-radius: 2px; /* Add rounding for a more modern look */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4b5563; /* Darken the thumb on hover for better UX */
+}
+
+::-webkit-scrollbar-track {
+  background: #09090b; /* Set the track background to blend with the app's design */
+  border-radius: 0px; /* Round the track as well for a consistent look */
+}
+
+/* Scrollbar for dark mode */
+.dark ::-webkit-scrollbar-track {
+  background: #374151; /* Dark mode track background */
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background-color: #9ca3af; /* Lighter thumb for dark mode */
+}
+
+/* Firefox scrollbar customization */
+scrollbar-width: thin;
+scrollbar-color: #6b7280 #e5e7eb;
+
+/* Dark mode for Firefox */
+.dark {
+  scrollbar-color: #9ca3af #374151;
+}
